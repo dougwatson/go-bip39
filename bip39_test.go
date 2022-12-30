@@ -1,4 +1,4 @@
-package bip39
+package main
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/tyler-smith/assert"
-	"github.com/tyler-smith/go-bip39/wordlists"
+	"github.com/dougwatson/go-bip39/wordlists"
 )
 
 type vector struct {

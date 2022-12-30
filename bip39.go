@@ -2,7 +2,7 @@
 //
 // The official BIP39 spec can be found at
 // https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
-package bip39
+package main
 
 import (
 	"crypto/rand"
@@ -14,7 +14,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tyler-smith/go-bip39/wordlists"
+	"github.com/dougwatson/go-bip39/wordlists"
+	//"go-bip39/pbkdf2"
 	"golang.org/x/crypto/pbkdf2"
 )
 
