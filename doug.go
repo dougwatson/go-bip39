@@ -8,5 +8,5 @@ func main(){
 	if err!=nil{
 		println("err=",err.Error())
 	}
-	fmt.Printf("seed=%+v\n",seed)
+	fmt.Printf("Seed=%+v\n",seed)
 }
